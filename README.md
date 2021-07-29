@@ -1,7 +1,3 @@
-# latrobesafetyforuser
-La Trobe Safety Apps for User, ability to send Security escort request 
+This is the safety app for users which allows them to send message or call for an escort.
+The screen shot of different activities are shown below
 
-
-[Click here for a Demo video! ](https://res.cloudinary.com/hbcfhna19/video/upload/v1619241947/LaTrobeSafety_ie6scd.mp4)
-
-Warning: Code has not been maintained since 2019
