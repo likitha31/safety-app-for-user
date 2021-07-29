@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".emergency_information">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-77dp">
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="30sp"
+            android:textColor="@color/pink"
+            android:text="@string/header"
+            android:textAlignment="center"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="20sp"
+            android:paddingTop="20sp"
+            android:paddingEnd="10sp"
+            android:textColor="@color/pink"
+            android:text="@string/body" />
+
+        <TextView
+            android:id="@+id/code1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:clickable="true"
+            android:contextClickable="false"
+            android:hyphenationFrequency="normal"
+            android:linksClickable="true"
+            android:paddingLeft="20sp"
+            android:text="@string/code1"
+            android:textColorLink="@color/pink" />
+
+        <TextView
+            android:id="@+id/code2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:clickable="true"
+            android:linksClickable="true"
+            android:paddingLeft="20sp"
+            android:text="Code Red: Fire/Smoke"
+            android:textColorLink="@color/pink" />
+
+        <TextView
+            android:id="@+id/code3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:linksClickable="true"
+            android:paddingLeft="20sp"
+            android:text="@string/code3"
+            android:textColorLink="@color/pink" />
+
+        <TextView
+            android:id="@+id/code4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:clickable="true"
+            android:linksClickable="true"
+            android:paddingLeft="20sp"
+            android:text="@string/code4"
+            android:textColorLink="@color/pink" />
+
+        <TextView
+            android:id="@+id/code5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:clickable="true"
+            android:linksClickable="true"
+            android:paddingLeft="20sp"
+            android:text="@string/code5"
+            android:textColorLink="@color/pink" />
+
+        <TextView
+            android:id="@+id/code6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:clickable="true"
+            android:linksClickable="true"
+            android:paddingLeft="20sp"
+            android:text="@string/code6"
+            android:textColorLink="@color/pink" />
+
+        <TextView
+            android:id="@+id/code7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:clickable="true"
+            android:linksClickable="true"
+            android:paddingLeft="20sp"
+            android:text="@string/code7"
+            android:textColorLink="@color/pink" />
+
+        <TextView
+            android:id="@+id/code8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:clickable="true"
+            android:linksClickable="true"
+            android:paddingLeft="20sp"
+            android:text="@string/code8"
+            android:textColorLink="@color/pink" />
+
+        <TextView
+            android:id="@+id/code9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:clickable="true"
+            android:linksClickable="true"
+            android:paddingLeft="20sp"
+            android:paddingBottom="20sp"
+            android:text="@string/code9"
+            android:textColorLink="@color/pink" />
+
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/Burgundy"
+            android:text="back"
+            android:textColor="#EDFFFCFC"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

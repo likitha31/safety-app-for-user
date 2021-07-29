@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".sendMessage">
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="299dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/bold"
+        android:text="Specify your emergency"
+        android:textAlignment="center"
+        android:textColor="@color/pink"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="312dp"
+        android:layout_height="341dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/sendbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/desc">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/input_field"
+            android:ems="10"
+            android:fontFamily="@font/light"
+            android:textColor="@color/colorAccent"
+            android:hint="Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/messageTf"
+            android:layout_width="match_parent"
+            android:layout_height="214dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/input_field"
+            android:ellipsize="middle"
+            android:ems="10"
+            android:fontFamily="@font/light"
+            android:hint="Describe your situation here (please include as much detail as possible)"
+            android:orientation="vertical"
+            android:singleLine="false"
+            android:gravity="top"
+            android:textAlignment="gravity"
+            android:textColor="@color/colorAccent"
+            android:textSize="15sp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/cancelBtn"
+        android:layout_width="165dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/button"
+        android:text="Cancel"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/pink"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sendbtn" />
+
+    <Button
+        android:id="@+id/sendbtn"
+        android:layout_width="165dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/button"
+        android:text="Send"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/pink"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/cancelBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

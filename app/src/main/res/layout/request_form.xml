@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".requestForm">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="299dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/bold"
+        android:text="Specify your pickup request"
+        android:textAlignment="center"
+        android:textColor="@color/pink"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="281dp"
+        android:layout_height="480dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/confirmBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/pink"
+            android:layout_weight="1"
+            android:background="@drawable/building" />
+
+        <TimePicker
+            android:id="@+id/timePicker"
+            android:layout_width="match_parent"
+            android:layout_height="116dp"
+            android:textColor="@color/pink"
+            android:background="@drawable/input_field"
+            android:padding="10dp"
+            android:textSize="24sp"
+
+            android:timePickerMode="spinner" />
+
+        <EditText
+            android:id="@+id/nameET"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="24dp"
+            android:textColor="@color/colorAccent"
+            android:layout_weight="1"
+            android:background="@drawable/input_field"
+            android:ems="10"
+            android:hint="Your Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/msgET"
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="37dp"
+            android:background="@drawable/input_field"
+            android:ems="10"
+            android:textColor="@color/colorAccent"
+            android:gravity="top"
+            android:hint="Specify your exact location and describe your appearance (e.g wearing blue kathmandu jacket) "
+            android:orientation="vertical"
+            android:singleLine="false"
+            android:textAlignment="gravity"
+            android:textSize="15sp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"/>
+        />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/confirmBtn"
+        android:layout_width="165dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/button"
+        android:text="Confirm"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/pink"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

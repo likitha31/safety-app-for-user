@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">La Trobe Safety</string>
+    <string name="welcome">Welcome to LaTrobe Safety!</string>
+    <string name="info">Emergency Information</string>
+    <string name="reqPickUp">Request Pickup</string>
+    <string name="ImmResp">Immediate Response</string>
+    <string name="login">Sign-up/Login</string>
+    <string name="header">Emergency and critical incident procedures</string>
+    <string name="body">The Emergency and Critical Incident Procedures provides staff with advice on what to do in emergencies. This site outlines the steps to follow if an emergency situation occurs on campus. It includes refreshed and simplified protocols for responding to all the different types of critical incidents and emergencies. In the event of an emergency or critical incident, where you have called the Emergency Services, also contacting Security is important as the on-campus security staff can provide a more immediate response. Notifying Security also assists with getting the Emergency Services quickly to the right location. Please take the time to read the information and familiarise yourself with the University\'s Emergency and Critical Incident Procedures.</string>
+    <string name="code4"><a href="">Code Yellow: Gas Leak or Chemical Spill</a></string>
+    <string name="code1"><a href="">Code Brown: External Emergency</a></string>
+    <string name="code2"><a href="">Code Red: Fire/Smoke</a></string>
+    <string name="code5"><a href="">Code Orange: Evacuation</a></string>
+    <string name="code7"><a href="">Code Black: Personal Threat</a></string>
+    <string name="code3"><a href="">Code Blue: Medical Emergency (First Aid)</a></string>
+    <string name="code6"><a href="">Code Purple: Bomb/Chemical or Biological Threat</a></string>
+    <string name="code8"><a href="">Code White: Major Disruption or Outage Incident</a></string>
+    <string name="code9"><a href="">Code Green: Data Breach/Cyber Incident</a></string>
+</resources>
